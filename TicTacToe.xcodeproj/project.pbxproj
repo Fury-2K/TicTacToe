@@ -13,6 +13,8 @@
 		BB1AE94623C5EE6700E1A917 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1AE94423C5EE6700E1A917 /* Main.storyboard */; };
 		BB1AE94823C5EE6800E1A917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1AE94723C5EE6800E1A917 /* Assets.xcassets */; };
 		BB1AE94B23C5EE6800E1A917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1AE94923C5EE6800E1A917 /* LaunchScreen.storyboard */; };
+		BB1AE95423C5EE9300E1A917 /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AE95223C5EE9300E1A917 /* GameBoardViewController.swift */; };
+		BB1AE95523C5EE9300E1A917 /* GameBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1AE95323C5EE9300E1A917 /* GameBoardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BB1AE94723C5EE6800E1A917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1AE94A23C5EE6800E1A917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB1AE94C23C5EE6800E1A917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1AE95223C5EE9300E1A917 /* GameBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
+		BB1AE95323C5EE9300E1A917 /* GameBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameBoardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				BB1AE94723C5EE6800E1A917 /* Assets.xcassets */,
 				BB1AE94923C5EE6800E1A917 /* LaunchScreen.storyboard */,
 				BB1AE94C23C5EE6800E1A917 /* Info.plist */,
+				BB1AE95223C5EE9300E1A917 /* GameBoardViewController.swift */,
+				BB1AE95323C5EE9300E1A917 /* GameBoardViewController.xib */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1AE94B23C5EE6800E1A917 /* LaunchScreen.storyboard in Resources */,
+				BB1AE95523C5EE9300E1A917 /* GameBoardViewController.xib in Resources */,
 				BB1AE94823C5EE6800E1A917 /* Assets.xcassets in Resources */,
 				BB1AE94623C5EE6700E1A917 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1AE94323C5EE6700E1A917 /* ViewController.swift in Sources */,
+				BB1AE95423C5EE9300E1A917 /* GameBoardViewController.swift in Sources */,
 				BB1AE93F23C5EE6700E1A917 /* AppDelegate.swift in Sources */,
 				BB1AE94123C5EE6700E1A917 /* SceneDelegate.swift in Sources */,
 			);
