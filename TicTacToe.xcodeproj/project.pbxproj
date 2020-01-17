@@ -15,6 +15,7 @@
 		BB1AE94B23C5EE6800E1A917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1AE94923C5EE6800E1A917 /* LaunchScreen.storyboard */; };
 		BB1AE95423C5EE9300E1A917 /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1AE95223C5EE9300E1A917 /* GameBoardViewController.swift */; };
 		BB1AE95523C5EE9300E1A917 /* GameBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB1AE95323C5EE9300E1A917 /* GameBoardViewController.xib */; };
+		BB65BFBC23CDBFA6004243E6 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB65BFBB23CDBFA6004243E6 /* GameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BB1AE94C23C5EE6800E1A917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB1AE95223C5EE9300E1A917 /* GameBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
 		BB1AE95323C5EE9300E1A917 /* GameBoardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameBoardViewController.xib; sourceTree = "<group>"; };
+		BB65BFBB23CDBFA6004243E6 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				BB1AE94923C5EE6800E1A917 /* LaunchScreen.storyboard */,
 				BB1AE94C23C5EE6800E1A917 /* Info.plist */,
 				BB1AE95223C5EE9300E1A917 /* GameBoardViewController.swift */,
+				BB65BFBB23CDBFA6004243E6 /* GameViewModel.swift */,
 				BB1AE95323C5EE9300E1A917 /* GameBoardViewController.xib */,
 			);
 			path = TicTacToe;
@@ -148,6 +151,7 @@
 				BB1AE94323C5EE6700E1A917 /* ViewController.swift in Sources */,
 				BB1AE95423C5EE9300E1A917 /* GameBoardViewController.swift in Sources */,
 				BB1AE93F23C5EE6700E1A917 /* AppDelegate.swift in Sources */,
+				BB65BFBC23CDBFA6004243E6 /* GameViewModel.swift in Sources */,
 				BB1AE94123C5EE6700E1A917 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
